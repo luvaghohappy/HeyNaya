@@ -1,6 +1,6 @@
 import React from "react";
 import { Mic, Sparkles, MessageCircle, Wind, BookOpen, Shield, ShieldCheck, Lock, Brain, Heart } from "lucide-react";
-import bg from "../assets/images/backgroundimage.png";
+import bg from "../assets/images/image.png";
 // import Footer from "../components/Footer";
 
 export default function Home() {
@@ -35,11 +35,16 @@ export default function Home() {
           <p className="text-white/80 max-w-xl text-xl mb-2">
             Your voice assistant for trauma support and healing.
           </p>
-          <p className="text-white/40 max-w-xl text-sm mb-40">
+          <p className="text-white/40 max-w-xl text-sm mb-4">
             Naya is here to listen, support and guide you.
+            
             <br />
-            one conversation at time.
+            one conversation at time. 
           </p>
+          <p className="text-white/80 max-w-xl text-sm mb-40">
+            Naya is more than just a voice assistant it is a space where you can be heard. In moments of stress, confusion, or emotional weight, Naya offers a calm presence that listens deeply and responds with care. It helps you slow down, reconnect with yourself, and navigate your thoughts at your own pace, without pressure or judgment.
+          </p>
+
 
           {/* Circle + Orbit */}
           <div className="relative flex items-center justify-center mb-40">
@@ -51,8 +56,8 @@ export default function Home() {
             <div className="absolute w-[320px] h-[320px] rounded-full border border-white/5" />
             <div className="absolute w-[420px] h-[420px] rounded-full border border-white/10" />
             <div className="absolute w-[520px] h-[520px] rounded-full border border-white/5" />
-              
-              {/* Rotating Dot 1 */}
+
+            {/* Rotating Dot 1 */}
             <div className="absolute w-[320px] h-[320px] rounded-full animate-orbit">
               <div className="absolute top-0 left-1/2 -translate-x-1/2 w-2 h-2 bg-purple-600 rounded-full" />
               <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-2 h-2 bg-purple-600 rounded-full" />
@@ -148,7 +153,6 @@ export default function Home() {
           <div className="flex items-center gap-2 text-white/80 text-sm">
             <span>You don't have to go through this alone. I'm here</span>
             <Heart className="w-4 h-4 text-purple-400" />
-
           </div>
         </div>
       </section>

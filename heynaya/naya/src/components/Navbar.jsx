@@ -1,12 +1,30 @@
 // src/components/Navbar.jsx
 
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import logo from "../assets/images/logo.png";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
   const location = useLocation();
+
+  const [indicatorStyle, setIndicatorStyle] = useState({});
+  const navRef = useRef(null);
+
+  useEffect(() => {
+    const activeLink = navRef.current?.querySelector(
+      `[data-path="${location.pathname}"]`
+    );
+
+    if (activeLink) {
+      const rect = activeLink.getBoundingClientRect();
+      const parentRect = navRef.current.getBoundingClientRect();
+
+      setIndicatorStyle({
+        left: rect.left - parentRect.left + rect.width / 2,
+      });
+    }
+  }, [location.pathname]);
 
   const linkClass = (path) =>
     `relative cursor-pointer transition ${
@@ -30,49 +48,60 @@ export default function Navbar() {
             </div>
 
             {/* Desktop Nav */}
-            <nav className="hidden md:flex items-center gap-8 text-sm font-medium">
-              <Link to="/" className={linkClass("/")}>
-                Home
-                {location.pathname === "/" && (
-                  <span className="absolute -bottom-2 left-1/2 -translate-x-1/2 w-1 h-1 bg-purple-400 rounded-full" />
-                )}
-              </Link>
+            <div className="relative">
+              <nav
+                ref={navRef}
+                className="hidden md:flex items-center gap-8 text-sm font-medium relative"
+              >
+                <Link to="/" data-path="/" className={linkClass("/")}>
+                  Home
+                </Link>
 
-              <Link to="/AboutUs" className={linkClass("/AboutUs")}>
-                About Us
-              </Link>
+                <Link to="/AboutUs" data-path="/AboutUs" className={linkClass("/AboutUs")}>
+                  About Us
+                </Link>
 
-              <Link to="/HowItWorks" className={linkClass("/HowItWorks")}>
-                How It Works
-              </Link>
+                <Link to="/HowItWorks" data-path="/HowItWorks" className={linkClass("/HowItWorks")}>
+                  How It Works
+                </Link>
 
-              <Link to="/Support" className={linkClass("/Support")}>
-                Support
-              </Link>
+                <Link to="/Support" data-path="/Support" className={linkClass("/Support")}>
+                  Support
+                </Link>
 
-              <Link to="/Sources" className={linkClass("/Sources")}>
-                Sources
-              </Link>
-            </nav>
+                <Link to="/Sources" data-path="/Sources" className={linkClass("/Sources")}>
+                  Sources
+                </Link>
 
-            {/* Right Buttons */}
+                {/* 🔥 Moving Dot */}
+                <span
+                  className="absolute -bottom-2 w-2 h-2 bg-purple-400 rounded-full transition-all duration-300"
+                  style={{
+                    left: indicatorStyle.left,
+                    transform: "translateX(-50%)",
+                  }}
+                />
+              </nav>
+            </div>
+
+            {/* Buttons */}
             <div className="hidden md:flex items-center gap-3">
-              <button className="px-5 py-2 rounded-full bg-gradient-to-r from-purple-500 to-indigo-500 text-white text-sm font-medium hover:opacity-90 transition shadow-lg">
+              <button className="px-5 py-2 rounded-full bg-gradient-to-r from-purple-500 to-indigo-500 text-white text-sm">
                 Get Started
               </button>
-
-              <button className="px-4 py-2 rounded-full border border-white/20 text-white/80 text-sm hover:bg-white/10 transition">
+              <button className="px-4 py-2 rounded-full border border-white/20 text-white/80 text-sm">
                 Log In
               </button>
             </div>
 
-            {/* Mobile Button */}
+            {/* Mobile */}
             <button
               className="md:hidden text-3xl text-white"
               onClick={() => setOpen(true)}
             >
               ☰
             </button>
+
           </div>
         </div>
       </div>
