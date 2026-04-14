@@ -65,10 +65,6 @@ export default function Navbar() {
                   How It Works
                 </Link>
 
-                <Link to="/Support" data-path="/Support" className={linkClass("/Support")}>
-                  Support
-                </Link>
-
                 <Link to="/Sources" data-path="/Sources" className={linkClass("/Sources")}>
                   Sources
                 </Link>
@@ -87,10 +83,10 @@ export default function Navbar() {
             {/* Buttons */}
             <div className="hidden md:flex items-center gap-3">
               <button className="px-5 py-2 rounded-full bg-gradient-to-r from-purple-500 to-indigo-500 text-white text-sm">
-                Get Started
+                LOG IN
               </button>
               <button className="px-4 py-2 rounded-full border border-white/20 text-white/80 text-sm">
-                Log In
+                NAYA
               </button>
             </div>
 
@@ -130,7 +126,6 @@ export default function Navbar() {
           <Link onClick={() => setOpen(false)} to="/">Home</Link>
           <Link onClick={() => setOpen(false)} to="/AboutUs">About</Link>
           <Link onClick={() => setOpen(false)} to="/HowItWorks">How It Works</Link>
-          <Link onClick={() => setOpen(false)} to="/Support">Support</Link>
           <Link onClick={() => setOpen(false)} to="/Sources">Sources</Link>
         </nav>
       </div>

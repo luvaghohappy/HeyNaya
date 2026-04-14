@@ -8,7 +8,7 @@ export default function Home() {
     <div className="w-full text-white">
 
       {/* HERO SECTION */}
-      <section className="relative min-h-screen flex flex-col items-center text-center px-4 py-32 overflow-hidden">
+      <section className="relative flex flex-col items-center text-center px-4 py-32 overflow-hidden">
 
         {/* Background */}
         <img
@@ -151,7 +151,7 @@ export default function Home() {
 
           {/* Text below */}
           <div className="flex items-center gap-2 text-white/80 text-sm">
-            <span>You don't have to go through this alone. I'm here</span>
+            <span>Designed with care, privacy, and emotional safety at its core.</span>
             <Heart className="w-4 h-4 text-purple-400" />
           </div>
         </div>
