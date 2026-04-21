@@ -1,0 +1,132 @@
+{
+  "navbar": {
+    "home": "Accueil",
+    "about": "À Propos",
+    "howItWorks": "Fonctionnement",
+    "sources": "Sources",
+    "getStarted": "Démarrer",
+    "slogan": "Votre voix. Votre guérison.",
+    "theme": "Thème",
+    "language": "Langue"
+  },
+  "welcomeModal": {
+    "title": "Bienvenue sur",
+    "subtitle_1": "Veuillez sélectionner votre langue et thème préférés",
+    "subtitle_2": "pour personnaliser votre espace.",
+    "language": "Langue",
+    "appearance": "Apparence",
+    "lightMode": "Mode Clair",
+    "darkMode": "Mode Sombre",
+    "continue": "Continuer"
+  },
+  "home": {
+    "hero": {
+      "badge": "Nouveau : IA informée sur les traumas",
+      "title": "Découvrez",
+      "tagline": "Votre assistant vocal pour le soutien, la croissance et la guérison douce.",
+      "description": "Naya n'est pas qu'une IA. C'est une présence calme qui écoute profondément, vous aidant à vous reconnecter avec vous-même et à naviguer vos pensées à votre propre rythme."
+    },
+    "download": {
+      "getOn": "Disponible sur",
+      "downloadOn": "Télécharger sur"
+    },
+    "orbit": {
+      "ready": "Prête à écouter",
+      "talk": { "title": "Parler", "subtitle": "Espace d'écoute sécurisé" },
+      "ground": { "title": "Ancrage", "subtitle": "Respiration calme" },
+      "learn": { "title": "Apprendre", "subtitle": "Sagesse et croissance" },
+      "safe": { "title": "Sécure", "subtitle": "Privé et sécurisé" }
+    },
+    "benefits": {
+      "privacy": "Confidentialité Protégée",
+      "secure": "Sécurisé de Bout en Bout",
+      "trauma": "Informé sur les Traumas"
+    },
+    "footer_note": "Créé avec pour votre bien-être"
+  },
+  "about": {
+    "header": {
+      "title": "À Propos",
+      "subtitle": "Nous construisons l'avenir de la sécurité émotionnelle, une conversation à la fois."
+    },
+    "mission": {
+      "tag": "Notre Mission",
+      "title": "Créer un <1>espace sûr</1> pour chaque voix.",
+      "desc": "Notre mission est de combler le fossé entre la technologie et l'empathie humaine. Naya n'est pas seulement un assistant ; c'est un compagnon de soutien basé sur les principes des soins informés sur les traumatismes et de la sécurité émotionnelle. Nous croyons que tout le monde mérite d'être entendu sans jugement, dès qu'il en a besoin.",
+      "valuesLink": "Découvrez nos valeurs"
+    },
+    "journey": {
+      "tag": "Le Voyage",
+      "title": "Pourquoi Naya <1>a été créée</1>.",
+      "desc": "Naya est née de la constatation que des millions de personnes luttent silencieusement avec des fardeaux émotionnels, se sentant souvent dépassées ou incapables de demander de l'aide. Nous avons vu le besoin d'une première étape numérique douce—un moyen de libérer la tension et de traiter les pensées dans un espace à la fois personnel et privé."
+    },
+    "wellbeing": {
+      "tag": "Bien-être",
+      "title": "La <1>santé mentale</1> compte.",
+      "desc": "La guérison n'est pas une ligne droite, et elle ne devrait pas être solitaire. Le stress, l'anxiété et les traumatismes font partie de l'expérience humaine qui nécessite de la patience et des soins. Naya sert de rappel que vos sentiments sont valides, et que prendre le temps de dire votre vérité est une étape puissante vers le rétablissement et la conscience."
+    },
+    "trust": {
+      "quote": "Conçu avec soin, confidentialité et <1>sécurité émotionnelle</1> au cœur.",
+      "protected": "Protégé",
+      "secure": "Sécurisé",
+      "informed": "Informé sur les traumas"
+    }
+  },
+  "howItWorks": {
+    "hero": {
+      "badge": "Tutoriel",
+      "title": "Comment <1>Naya</1> Fonctionne",
+      "subtitle": "Une conversation simple et naturelle conçue pour vous soutenir étape par étape. Pas de complexité, juste de l'attention."
+    },
+    "steps": {
+      "s1": { "title": "Parler", "desc": "Ouvrez l'application et partagez ce que vous avez en tête. Parlez simplement comme à un ami." },
+      "s2": { "title": "Comprendre", "desc": "Notre IA informée sur les traumas écoute et interprète avec une conscience émotionnelle profonde." },
+      "s3": { "title": "Répondre", "desc": "Recevez des conseils réfléchis, sûrs et stimulants, adaptés à votre moment." },
+      "s4": { "title": "Grandir", "desc": "Sentez-vous plus calme, écouté et mieux équipé pour gérer vos pensées." }
+    },
+    "experience": {
+      "title": "Dites",
+      "subtitle": "Pas de dactylographie, pas de complexité. Juste votre voix, vos pensées, et un espace sûr qui écoute toujours.",
+      "cta": "Essayer la démo vocale"
+    },
+    "values": {
+      "protected": "Protégé",
+      "secure": "Sécurisé",
+      "informed": "Informé",
+      "note": "La sécurité et la vie privée émotionnelle sont notre priorité"
+    }
+  },
+  "sources": {
+    "hero": {
+      "badge": "Centre de Connaissances",
+      "title": "Sources et <1>Ressources</1>",
+      "subtitle": "Explorez la science, la recherche et la littérature qui façonnent l'approche informée sur les traumas de Naya."
+    },
+    "categories": {
+      "essential": "Lectures Essentielles",
+      "clinical": "Recherche Clinique",
+      "tech": "Technologie et Éthique"
+    },
+    "cta": {
+      "title": "Commencez votre <1>voyage</1> aujourd'hui.",
+      "subtitle": "Disponible dès maintenant sur tous vos appareils préférés."
+    }
+  },
+  "footer": {
+    "mission_title": "Notre Mission",
+    "mission_desc": "Fournir un espace sûr et informé sur les traumatismes pour le traitement émotionnel et la guérison grâce à un guidage IA doux.",
+    "privacy": "Vie Privée d'Abord",
+    "care": "L'Empathie au Cœur",
+    "ai": "IA Responsable",
+    "quickLinks": "Liens Rapides",
+    "support": "Support et Légal",
+    "newsletter": "Restez Connecté",
+    "newsletter_desc": "Rejoignez notre voyage vers le bien-être émotionnel.",
+    "email_placeholder": "Votre email",
+    "subscribe": "Rejoindre",
+    "privacy_policy": "Politique de Confidentialité",
+    "terms": "Conditions d'Utilisation",
+    "contact": "Contactez-nous",
+    "copyright": "Tous droits réservés."
+  }
+}

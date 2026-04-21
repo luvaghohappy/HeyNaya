@@ -1,0 +1,132 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About Us",
+    "howItWorks": "How it Works",
+    "sources": "Sources",
+    "getStarted": "Get Started",
+    "slogan": "Your voice. Your healing.",
+    "theme": "Theme",
+    "language": "Language"
+  },
+  "welcomeModal": {
+    "title": "Welcome to",
+    "subtitle_1": "Please select your preferred language and theme",
+    "subtitle_2": "to personalize your space.",
+    "language": "Language",
+    "appearance": "Appearance",
+    "lightMode": "Light Mode",
+    "darkMode": "Dark Mode",
+    "continue": "Continue"
+  },
+  "home": {
+    "hero": {
+      "badge": "New: Trauma-Informed AI",
+      "title": "Meet",
+      "tagline": "Your voice assistant for trauma support, growth, and gentle healing.",
+      "description": "Naya isn't just an AI. It's a calm presence that listens deeply, helping you reconnect with yourself and navigate your thoughts at your own pace."
+    },
+    "download": {
+      "getOn": "Get it on",
+      "downloadOn": "Download on"
+    },
+    "orbit": {
+      "ready": "Ready to listen",
+      "talk": { "title": "Talk", "subtitle": "Safe listening space" },
+      "ground": { "title": "Ground", "subtitle": "Calm breathing" },
+      "learn": { "title": "Learn", "subtitle": "Wisdom & growth" },
+      "safe": { "title": "Safe", "subtitle": "Private & secure" }
+    },
+    "benefits": {
+      "privacy": "Privacy Protected",
+      "secure": "End-to-End Secure",
+      "trauma": "Trauma-Informed"
+    },
+    "footer_note": "Made with for your well-being"
+  },
+  "about": {
+    "header": {
+      "title": "About",
+      "subtitle": "We are building the future of emotional safety, one conversation at a time."
+    },
+    "mission": {
+      "tag": "Our Mission",
+      "title": "Creating a <1>Safe Space</1> for every voice.",
+      "desc": "Our mission is to bridge the gap between technology and human empathy. Naya isn't just an assistant; it's a supportive companion built on the principles of trauma-informed care and emotional safety. We believe that everyone deserves to be heard without judgment, whenever they need it.",
+      "valuesLink": "Learn about our values"
+    },
+    "journey": {
+      "tag": "The Journey",
+      "title": "Why Naya <1>was Created</1>.",
+      "desc": "Naya was born from the realization that millions struggle silently with emotional burdens, often feeling overwhelmed or unable to reach out. We saw a need for a gentle, digital first step—a way to release tension and process thoughts in a space that feels both personal and private."
+    },
+    "wellbeing": {
+      "tag": "Well-being",
+      "title": "Mental Health <1>Matters</1>.",
+      "desc": "Healing isn't a straight line, and it shouldn't be lonely. Stress, anxiety, and trauma are parts of the human experience that require patience and care. Naya serves as a reminder that your feelings are valid, and that taking the time to speak your truth is a powerful step toward recovery and awareness."
+    },
+    "trust": {
+      "quote": "Designed with care, privacy, and <1>emotional safety</1> at its core.",
+      "protected": "Protected",
+      "secure": "Secure",
+      "informed": "Trauma-informed"
+    }
+  },
+  "howItWorks": {
+    "hero": {
+      "badge": "Tutorial",
+      "title": "How <1>Naya</1> Works",
+      "subtitle": "A simple, natural conversation designed to support you step by step. No complexity, just care."
+    },
+    "steps": {
+      "s1": { "title": "Speak", "desc": "Open the app and share what's on your mind. Just talk as if to a friend." },
+      "s2": { "title": "Understand", "desc": "Our trauma-informed AI listens and interprets with deep emotional awareness." },
+      "s3": { "title": "Respond", "desc": "Receive thoughtful, safe, and supportive guidance tailored to your moment." },
+      "s4": { "title": "Grow", "desc": "Feel calmer, heard, and better equipped to handle your thoughts." }
+    },
+    "experience": {
+      "title": "Say",
+      "subtitle": "No typing, no complexity. Just your voice, your thoughts, and a safe space that always listens.",
+      "cta": "Try Demo Voice"
+    },
+    "values": {
+      "protected": "Protected",
+      "secure": "Secure",
+      "informed": "Informed",
+      "note": "Safety & Emotional Privacy at our Core"
+    }
+  },
+  "sources": {
+    "hero": {
+      "badge": "Knowledge Hub",
+      "title": "Sources & <1>Resources</1>",
+      "subtitle": "Explore the science, research, and literature that shapes Naya's trauma-informed approach."
+    },
+    "categories": {
+      "essential": "Essential Reading",
+      "clinical": "Clinical Research",
+      "tech": "Tech & Ethics"
+    },
+    "cta": {
+      "title": "Start your <1>journey</1> today.",
+      "subtitle": "Available now on all your favorite devices."
+    }
+  },
+  "footer": {
+    "mission_title": "Our Mission",
+    "mission_desc": "Providing a safe, trauma-informed space for emotional processing and healing through gentle AI guidance.",
+    "privacy": "Privacy First",
+    "care": "Care Driven",
+    "ai": "AI Powered",
+    "quickLinks": "Quick Links",
+    "support": "Support & Legal",
+    "newsletter": "Stay Connected",
+    "newsletter_desc": "Join our journey toward emotional well-being.",
+    "email_placeholder": "Enter your email",
+    "subscribe": "Join Now",
+    "privacy_policy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "contact": "Contact Us",
+    "copyright": "All rights reserved."
+  }
+}

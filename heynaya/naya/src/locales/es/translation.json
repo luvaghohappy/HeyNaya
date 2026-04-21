@@ -1,0 +1,132 @@
+{
+  "navbar": {
+    "home": "Inicio",
+    "about": "Sobre Nosotros",
+    "howItWorks": "Cómo Funciona",
+    "sources": "Fuentes",
+    "getStarted": "Empezar",
+    "slogan": "Tu voz. Tu sanación.",
+    "theme": "Tema",
+    "language": "Idioma"
+  },
+  "welcomeModal": {
+    "title": "Bienvenido a",
+    "subtitle_1": "Por favor, seleccione su idioma y tema preferidos",
+    "subtitle_2": "para personalizar su espacio.",
+    "language": "Idioma",
+    "appearance": "Apariencia",
+    "lightMode": "Modo Claro",
+    "darkMode": "Modo Oscuro",
+    "continue": "Continuar"
+  },
+  "home": {
+    "hero": {
+      "badge": "Nuevo: IA informada sobre traumas",
+      "title": "Conoce a",
+      "tagline": "Tu asistente de voz para apoyo en traumas, crecimiento y sanación suave.",
+      "description": "Naya no es solo una IA. Es una presencia tranquila que escucha profundamente, ayudándote a reconectarte contigo mismo y a navegar tus pensamientos a tu propio ritmo."
+    },
+    "download": {
+      "getOn": "Consíguelo en",
+      "downloadOn": "Descargar en"
+    },
+    "orbit": {
+      "ready": "Lista para escuchar",
+      "talk": { "title": "Hablar", "subtitle": "Espacio de escucha seguro" },
+      "ground": { "title": "Enraizar", "subtitle": "Respiración tranquila" },
+      "learn": { "title": "Aprender", "subtitle": "Sabiduría y crecimiento" },
+      "safe": { "title": "Seguro", "subtitle": "Privado y seguro" }
+    },
+    "benefits": {
+      "privacy": "Privacidad Protegida",
+      "secure": "Seguro de Extremo a Extremo",
+      "trauma": "Informado sobre Traumas"
+    },
+    "footer_note": "Creado con para tu bienestar"
+  },
+  "about": {
+    "header": {
+      "title": "Acerca de",
+      "subtitle": "Estamos construyendo el futuro de la seguridad emocional, una conversación a la vez."
+    },
+    "mission": {
+      "tag": "Nuestra Misión",
+      "title": "Creando un <1>espacio seguro</1> para cada voz.",
+      "desc": "Nuestra misión es cerrar la brecha entre la tecnología y la empatía humana. Naya no es solo un asistente; es un compañero de apoyo basado en los principios de la atención informada sobre el trauma y la seguridad emocional. Creemos que todos merecen ser escuchados sin juicio, siempre que lo necesiten.",
+      "valuesLink": "Conozca nuestros valores"
+    },
+    "journey": {
+      "tag": "El Viaje",
+      "title": "Por qué <1>se creó</1> Naya.",
+      "desc": "Naya nació de la comprensión de que millones de personas luchan silenciosamente con cargas emocionales, a menudo sintiéndose abrumadas o incapaces de pedir ayuda. Vimos la necesidad de un primer paso digital suave: una forma de liberar la tensión y procesar los pensamientos en un espacio que se siente tanto personal como privado."
+    },
+    "wellbeing": {
+      "tag": "Bienestar",
+      "title": "La <1>salud mental</1> importa.",
+      "desc": "La sanación no es una línea recta y no debería ser solitaria. El estrés, la ansiedad y el trauma son partes de la experiencia humana que requieren paciencia y cuidado. Naya sirve como un recordatorio de que sus sentimientos son válidos y que tomarse el tiempo para decir su verdad es un paso poderoso hacia la recuperación y la conciencia."
+    },
+    "trust": {
+      "quote": "Diseñado con cuidado, privacidad y <1>seguridad emocional</1> en su núcleo.",
+      "protected": "Protegido",
+      "secure": "Seguro",
+      "informed": "Informado sobre traumas"
+    }
+  },
+  "howItWorks": {
+    "hero": {
+      "badge": "Tutorial",
+      "title": "Cómo funciona <1>Naya</1>",
+      "subtitle": "Una conversación sencilla y natural diseñada para apoyarte paso a paso. Sin complicaciones, solo cuidado."
+    },
+    "steps": {
+      "s1": { "title": "Hablar", "desc": "Abre la aplicación y comparte lo que tienes en mente. Habla como si fuera un amigo." },
+      "s2": { "title": "Entender", "desc": "Nuestra IA informada sobre el trauma escucha e interpreta con una profunda conciencia emocional." },
+      "s3": { "title": "Responder", "desc": "Recibe una guía reflexiva, segura y solidaria adaptada a tu momento." },
+      "s4": { "title": "Crecer", "desc": "Siéntete más tranquilo, escuchado y mejor equipado para manejar tus pensamientos." }
+    },
+    "experience": {
+      "title": "Di",
+      "subtitle": "Sin escribir, sin complicaciones. Solo tu voz, tus pensamientos y un espacio seguro que siempre escucha.",
+      "cta": "Probar demo de voz"
+    },
+    "values": {
+      "protected": "Protegido",
+      "secure": "Seguro",
+      "informed": "Informado",
+      "note": "La seguridad y la privacidad emocional son nuestro núcleo"
+    }
+  },
+  "sources": {
+    "hero": {
+      "badge": "Centro de Conocimiento",
+      "title": "Fuentes y <1>Recursos</1>",
+      "subtitle": "Explora la ciencia, la investigación y la literatura que dan forma al enfoque informado sobre el trauma de Naya."
+    },
+    "categories": {
+      "essential": "Lectura Esencial",
+      "clinical": "Investigación Clínica",
+      "tech": "Tecnología y Ética"
+    },
+    "cta": {
+      "title": "Comienza tu <1>viaje</1> hoy.",
+      "subtitle": "Disponible ahora en todos tus dispositivos favoritos."
+    }
+  },
+  "footer": {
+    "mission_title": "Nuestra Misión",
+    "mission_desc": "Proporcionar un espacio seguro e informado sobre el trauma para el procesamiento emocional y la sanación a través de una guía de IA suave.",
+    "privacy": "La Privacidad Primero",
+    "care": "Guiados por el Cuidado",
+    "ai": "IA Potenciada",
+    "quickLinks": "Enlaces Rápidos",
+    "support": "Soporte y Legal",
+    "newsletter": "Mantente Conectado",
+    "newsletter_desc": "Únete a nuestro viaje hacia el bienestar emocional.",
+    "email_placeholder": "Tu correo electrónico",
+    "subscribe": "Únete Ahora",
+    "privacy_policy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "contact": "Contáctanos",
+    "copyright": "Todos los derechos reservados."
+  }
+}
